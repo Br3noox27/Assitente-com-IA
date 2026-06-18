@@ -1,12 +1,19 @@
-# Arquivo de segredos
+# Bancos de dados locais — nunca versionar
+*.db
+*.sqlite
+*.sqlite3
+
+# Persistência de estado da aplicação
+*.pkl
+
+# Variáveis de ambiente e segredos
 .env
 
-# Banco de dados
-orion_memoria.db
-orion_lembretes_persistentes.pkl
-
-# Pasta do Ambiente Virtual
+# Python
+__pycache__/
+*.pyc
+venv/
 .venv/
 
-# Arquivos de cache do Python
-__pycache__/
+# Arquivos temporários de áudio
+*.oga
